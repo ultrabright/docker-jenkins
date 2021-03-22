@@ -2,7 +2,7 @@
 
 source docker_jenkins_scripts_globals.bash
 
-echo -n "Satrting special docker jenkins buil. Please enter pass for jenkins key store : "
+echo -n "Satrting special docker jenkins build. Please enter pass for jenkins key store : "
 # read -es psswrd
 
 psswrd=`gpg --quiet --gen-random --armor 0 24 |& tail -1`
