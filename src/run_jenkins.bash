@@ -2,7 +2,7 @@
 
 source docker_jenkins_scripts_globals.bash
 
-echo -n "Satrting docker jenkins container. Please enter pass : "
+echo -n "Starting docker jenkins container. Please enter pass : "
 # read -es psswrd
 
 psswrd=`gpg --quiet --gen-random --armor 0 24 |& tail -1`
